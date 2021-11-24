@@ -1,0 +1,185 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+ * {
+     box-sizing: border-box;
+     font-family: 'Outfit', sans-serif;
+ }
+
+
+body {
+  background-color: hsl(217, 54%, 11%);
+  font-size: 18px;
+  min-width: 100vw;
+  
+}
+
+
+
+.container {
+    padding: 2rem 4rem;
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    width: 16%;
+    height: 60%;
+    left: 900px;
+    top: 200px;
+    position: absolute;
+     
+}
+
+.container {
+    display: flex;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 3%;
+    box-shadow: white;
+    align-content: flex-start;
+    width: 370px;
+    padding-top: 5px;
+
+}
+
+
+img {
+    padding: 20px;
+    height: 350px;
+    width: 350px;
+    border-radius: 10%;
+    
+}
+
+
+.paragrafo1 {
+    display: flex;
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+    font-weight: bold;
+    text-align: left;
+    
+ }
+
+.paragrafo1 p {
+    display: flex;
+    position: relative;
+    right: 61px;
+    bottom: 5px;
+    font-size: 22px;
+    
+    
+}
+
+.paragrafo {
+    position: relative;
+    bottom: 5px;
+    
+    
+}
+
+.sub-container1 {
+    display: flex;
+    position: relative;
+    bottom: 60px;
+
+}
+
+
+.paragrafo2 {
+    color:  hsla(0, 0%, 100%, 0.616);
+}
+
+.paragrafo2 {
+    position: relative;
+    right: 32px;
+    top: 35px;
+    padding-bottom: 10px;
+}
+
+
+.paragrafo3 {
+    color: rgb(0, 247, 255);
+    position: relative;
+    right: 100px;
+    bottom: 50px;
+    font-weight: bold;
+    
+}
+
+.paragrafo4 {
+    color:  hsla(0, 0%, 100%, 0.616);
+    position: relative;
+    left: 100px;
+    bottom: 107px;
+}
+
+hr {
+    width: 300px;
+    position: relative;
+    bottom: 130px;
+    right: 33px;
+    border-color: rgb(126, 126, 134);
+}
+
+
+.perfil {
+    width: 34px;
+    height: 36px;
+    padding: 0;
+    border-radius: 50%;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    top: 3px;
+    
+}
+
+.subcontainer5 {
+    border: 1px solid white;
+    position: relative;
+    bottom: 115px;
+    right: 120px;
+    border-radius: 60%;
+    
+}
+
+.subcontainer6 {
+    position: relative;
+    bottom: 165px;  
+    left: 18px;
+}
+
+
+.paragrafo5 {
+    position: relative;
+    top: 1px;
+    bottom: 30px;
+    color:  hsla(0, 0%, 100%, 0.616);
+    
+}
+
+.PT2paragrafo6 {
+    color: hsl(0, 0%, 100%);
+    
+}
+
+
+@media only screen and (min-width: 900px) and (max-width: 1200px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        position: relative;
+        right: 30px;
+
+    }
+
+    img {
+        padding: 20px;
+        height: 350px;
+        width: 350px;
+        border-radius: 10%;
+        
+    }
+
+
+}
